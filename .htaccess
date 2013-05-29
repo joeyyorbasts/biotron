@@ -1,0 +1,4 @@
+Options +FollowSymLinks
+RewriteEngine on
+RewriteRule ^smoketron/(.*)$ /mineratron/$1 [R=301,NC,L]
+RewriteRule ^smoketron(.*)$ /mineratron/$1 [R=301,NC,L]
