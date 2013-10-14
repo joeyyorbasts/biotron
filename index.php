@@ -41,7 +41,7 @@
 								<div class="slideshow-right-button"></div>
 								<div class="home-slideshow">
 								<!--<a href="http://www.biotronlabs.com/news/2012/10/02/visit-us-at-supplyside-west-booth-22086/" target="_blank"><img src="images/features/feature5.jpg" border="0"/></a>-->
-							
+									<a href="#"><img src="images/features/slide.tradeshow.jpg" border="0" /></a>
 									<a href="company.php"><img src="images/features/feature1.jpg" border="0"/></a>
 									<a href="company.php"><img src="images/features/feature4.jpg" border="0"/></a>	
 									<a href="pdf/biotron_brochure.pdf" target="_blank"><img src="images/features/feature3.jpg" border="0"/></a>
