@@ -16,6 +16,7 @@
 
 </head>
 <body id="contactpage">
+<?pho include("analyticstracking.php"); ?>	
  <div id="wrapper">
  
  		<div id="header">

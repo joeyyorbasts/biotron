@@ -19,6 +19,7 @@
 
 </head>
 <body id="home">
+<?pho include("analyticstracking.php"); ?>
  <div id="wrapper">
  
  		<div id="header">
