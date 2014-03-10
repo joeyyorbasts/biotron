@@ -97,8 +97,8 @@
 						<p> Biotron has been re-certified to the ISO9001:2008 standard following an extensive 3rd party audit of our Centerville, UT headquarters.  This comprehensive system is an integral part of Biotron's commitment to quality and traceability. The updated ISO standard is an internationally recognized benchmark for Quality Management Systems.  Additionally, many of Biotron's bulk products are now Halal Certified by IFANCA (Park Ridge, Illinois). Please enquire for more information.</p>
 						
 								<img src="images/layout/iso.jpg" border="0"/>
-								<img src="images/layout/halal.jpg" border="0"/>
-								<img src="images/layout/bck.gif" border="0" height="70"/>
+								<img src="images/layout/halal.jpg" border="0" width="115"/>
+								<img src="images/layout/kosher-check.png" border="0" width="105"/>
 								
 								<p class="small">*In many cases, specific elemental concentrations can be formulated upon request. Please inquire at 801.298.8438, or email <a href="mailto:info@biotronlabs.com" target="_blank">info@biotronlabs.com</a>. List subject to change. </p>
 

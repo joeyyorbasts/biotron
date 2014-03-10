@@ -4,7 +4,7 @@ body{
 	background-color: #FFFFFF;
 	background-image: url(../images/layout/bkgrd.jpg);
 	background-repeat: repeat-x;
-	font: 15px "Times New Roman", Times, serif;
+	font: 16px "Times New Roman", Times, serif;
 	line-height:1.4em;
 	color: #555;
 }
@@ -26,6 +26,8 @@ a:hover{color: #BBB; text-decoration: none;}
 .alignRight{float: right; margin: 0 20px 10px 60px;}
 .alignLeft{float: left; margin: 0 30px 10px 0px;}
 
+.customRight{float: right; margin: 0 0 10px 50px;}
+
 img.border{border: 3px solid #eee;}
 
 strong{	font-weight: bold;}
@@ -34,6 +36,87 @@ a.download[href$='.pdf'] {
 	padding: 5px 0 5px 25px;
 	background: transparent url(../images/layout/icon_pdf.gif) no-repeat center left;
 	
+}
+
+.banner img{
+	width: 100%;
+	height: auto;
+	
+	
+}
+
+.full-blue{
+	
+	width:100%;
+	min-height:200px;
+	padding: 20px 0;
+	background:#003b4a;	
+	color: #eee;
+	
+}
+
+.full-blue h2{
+	color: #fff;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 48px;
+	margin: 10px 0 30px 0;
+	font-weight: 100;
+	font-style: normal;
+	line-height: 30px;	
+	text-transform: uppercase;
+	
+	
+}
+
+.full-grey{
+	
+	width:100%;
+	min-height:200px;
+	padding: 20px 0;
+	background:#eee;	
+	
+}
+
+
+.full-grey h2 {
+color: #999;
+font-family: Georgia, "Times New Roman", Times, serif;
+font-size: 32px;
+font-style: italic;
+line-height: 1.3em;
+font-weight: 100;
+margin: 20px 0 20px 0;
+padding: 10px 30px;
+border-top: 1px solid #ccc;
+border-bottom: 1px solid #ccc;
+}
+
+.full-grey h3{
+	color: #0E4358;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 22px;
+	margin: 10px 0 0 0;
+	font-weight: normal;
+	font-style: normal;
+	line-height: 30px;	
+	padding-top: 50px;
+	
+	
+}
+
+.cell {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000px;
+	padding: 30px 0 0 0;
+	clear: both;
+	line-height:1.8em;
+}
+
+small{
+	font-size: 12px;
+
+
 }
 
 /*=== LAYOUT ----------------------------------===*/
@@ -264,12 +347,13 @@ margin: 0 0 0 20px;
 #navbar{
 	margin: 20px 0 0 0;
 	float: right;
-	width:445px;
+	width:570px;
 }
 
 ul.navlist{ }
 
 .navlist li{
+	   position: relative;
 	display: inline;
 	list-style-type: none;
 	padding-right: 20px;
@@ -293,6 +377,49 @@ ul.navlist{ }
 .navlist li a#current{
 	border-bottom: 2px solid #2977B8;	
 	padding-bottom: 3px;
+}
+
+
+/*Initialize*/
+navlist ul.sub-menu {
+    padding:0;
+    margin: 0;
+}
+
+.navlist ul.sub-menu li {
+    list-style-type: none;
+    display: inline-block;
+}
+/*Link Appearance*/
+ .navlist li ul.sub-menu li a {
+    text-decoration: none;
+    color: #ccc;
+    background: #082641;
+    padding: 10px;
+    display:inline-block;
+    width: 150px;
+    border-bottom: 1px solid #104980;
+}
+
+
+.navlist li ul.sub-menu li a:hover {
+	color: #fff;
+	
+	
+}
+
+/*sub menu*/
+.navlist li ul.sub-menu {
+    display:none;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    width: 150px;
+    z-index: 9999;
+    
+}
+.navlist li:hover ul.sub-menu {
+    display:block;
 }
 
 #home .home,
