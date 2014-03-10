@@ -6,7 +6,7 @@
 		
 		<ul class="sub-menu">
             <li><a href="cytocal.php">Cytocal&trade;</a></li>
-            <li><a href="ferractiv.php">Ferractiv&trade;</a></li>
+            <li><a href="ferractiv.php">Ferractiv&reg;</a></li>
         </ul>
 
 	</li>
