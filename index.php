@@ -42,7 +42,7 @@
 								<div class="slideshow-right-button"></div>
 								<div class="home-slideshow">
 									<a href="#"><img src="images/features/slide.tradeshow.2015.jpg" border="0"/></a>
-									<a href="company.php"><img src="images/features/feature1.jpg" border="0"/></a>
+									<!-- <a href="company.php"><img src="images/features/feature1.jpg" border="0"/></a> -->
 									<a href="company.php"><img src="images/features/feature4.jpg" border="0"/></a>
 									<a href="pdf/biotron_brochure.pdf" target="_blank"><img src="images/features/feature3.jpg" border="0"/></a>
 								</div>
